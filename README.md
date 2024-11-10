@@ -1,0 +1,1 @@
+A straightforward year duration calculator built with HTML, CSS, and JavaScript, designed to calculate the time difference between two selected years. Users can easily enter start and end years to get the duration in years. The website's clean, user-friendly interface makes it easy to perform quick, accurate calculations.
