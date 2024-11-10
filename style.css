@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    background: linear-gradient(rgb(229, 229, 159) , rgb(232, 170, 170) , rgb(172, 237, 172) , rgb(176, 176, 240));
+    height: 600px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 800px;
+    border-radius: 40px;
+}
+
+.content{
+    background-color: rgb(255, 234, 234);
+    width: 60%;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 160px;
+    border-radius: 25px;
+    border-bottom-right-radius: 150px;
+}
+
+
+.input{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+input{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+h6{
+    color: red;
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr{
+    color: rgb(134, 159, 134);
+    width: 400px;
+    position: relative;
+    left: 20px;
+}
+
+#calculateBtn{
+    background-color: rgb(0, 0, 7);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 420px;
+    bottom: 25px;
+    transition: 0.3s ease;
+}
+
+#calculateBtn:hover{
+    background-color: rgb(19, 225, 40);
+    cursor: pointer;
+}
+
+.result{
+    margin: 10px;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+
+.result h1{
+    margin: 9px;
+    color: blueviolet;
+    font-style: italic;
+    font-size: 37px;
+}
+
+.error{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
